@@ -53,7 +53,7 @@ fornecedor aprovar o pedido.
 <details>
     <summary><h2>Diagrama Entidade Relacionamento</h2></summary>
 
-![](relações.png)
+![](https://github.com/rodoraciotto/BancoSQL/blob/main/rela%C3%A7%C3%B5es.png)
 </details>
 
 <details>
