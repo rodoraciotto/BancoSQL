@@ -61,12 +61,12 @@ fornecedor aprovar o pedido.
 
 Adicionamos o atributo de duração no relacionamento da agenda, assim podemos organizar de forma mais efetiva os dados para o funcionamento do negócio
 
-1) Aplicamos inicialmente a distinção e mapeamento das entidades, decidimos então dividi-las em: Usuário, Cliente, Fornecedor, Máquina, Pessoa_Física, LanHouse. Escolhemos pois a partir do esquema dividimos que esses são os pilares para o nosso
+1. Aplicamos inicialmente a distinção e mapeamento das entidades, decidimos então dividi-las em: Usuário, Cliente, Fornecedor, Máquina, Pessoa_Física, LanHouse. Escolhemos pois a partir do esquema dividimos que esses são os pilares para o nosso
 modelo de negócio e que a estruturação do banco tornando-os entidades traria robustez
 e segurança ao nosso modelo de negócio e organização dos dados
-2) A partir de então começamos a levantar os atributos que comporão tais entidades e
+2. A partir de então começamos a levantar os atributos que comporão tais entidades e
 realizar o mapeamento dos atributos multivalorados, que foram: telefone, FormaPagamento, Dados Bancários.
-3) Dada tal organização começamos a distinguir os tipos de relacionamentos que compunham nossas entidades, levando em conta as regras nos atentamos principalmente em organizar de forma correta os relacionamentos 1:N 1:N (Máquina tem cpf Forn e Id conf) e M:N (tabela paga com cpf cliente e fornecedor, tabela agenda com cpf do cliente e id da Máquina)
+3. Dada tal organização começamos a distinguir os tipos de relacionamentos que compunham nossas entidades, levando em conta as regras nos atentamos principalmente em organizar de forma correta os relacionamentos 1:N 1:N (Máquina tem cpf Forn e Id conf) e M:N (tabela paga com cpf cliente e fornecedor, tabela agenda com cpf do cliente e id da Máquina)
 
 Regra de especialização:
 - Percebemos que seria vital para a estrutura do projeto organizar o utilizadores do
